@@ -12,7 +12,7 @@ The fifth puzzle was to find the number of differences in two images this will h
 4. Replace all the hosting link with your local host link.
 5. Write command `npm start`. 
 
-### Checklist of implemented features
+## Checklist of implemented features
 
 - [x] 5 clues 
 - [x] Deadend
