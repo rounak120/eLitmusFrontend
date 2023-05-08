@@ -1,6 +1,6 @@
 const getData = async (setData) => {
-
-    const res = await fetch('http://localhost:3001/getdetails')
+    
+    const res = await fetch('https://e-litmus-backend.vercel.app/getdetails')
     const data = await res.json()
     // console.log(data) 
 

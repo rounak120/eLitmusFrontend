@@ -16,7 +16,7 @@ function Clue2() {
     const [acc,setAcc] = useState(1)
     let timetaken=0,accuracy=0
     const insert = async () => {
-      await fetch("http://localhost:3001/stats",{
+      await fetch("https://e-litmus-backend.vercel.app/stats",{
         method:'POST',
         headers:{
           'Content-Type':'application/json'
